@@ -1,0 +1,41 @@
+﻿.board-table-parent{
+	position: relative;
+	min-height: 350px;
+	width: 385px;
+	margin: 0 auto;
+	height: auto;
+}
+.board-table{
+	margin-top: 100px;
+}
+	.board-table td{
+		height: 50px;
+		width: 50px;
+		line-height: 50px;
+		text-align: center;
+		color: white;
+		font-weight: bold;
+		vertical-align: middle;
+		display: inline-block;
+		zoom: 1;
+		*display: inline;
+		margin: 0px 1px;
+		background: #DEEDDE;
+	}
+	.board-table td{
+		cursor: pointer;
+		font-weight: normal;
+		line-height: 1px;
+	}
+	
+	.board-table td img{
+		margin: 3px 0 0 1px;
+	}
+	
+	.board-table td.selected{
+		background: #006600 !important;
+	}
+	.board-table td.no-cell{
+		background: black;
+		cursor: normal;
+	}
