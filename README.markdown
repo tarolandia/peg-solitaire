@@ -1,8 +1,11 @@
+#Peg Solitaire Game
+
 ## How to build a board
 ### HTML
-<pre>
+```html
 <div id="build-here"></div>
-</pre>
+```
+
 ### Javascript
 ```javascript
     $("#build-here").pegBoard();
