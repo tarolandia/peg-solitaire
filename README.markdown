@@ -1,6 +1,8 @@
 ## How to build a board
 ### HTML
+<pre>
 <div id="build-here"></div>
+</pre>
 ### Javascript
 ```javascript
     $("#build-here").pegBoard();
